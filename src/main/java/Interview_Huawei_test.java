@@ -12,7 +12,7 @@ LiSi unmarried 1 30
 Amy unmarried 1 30
 */
 //分配福利房
-public class Huawei_test {
+public class Interview_Huawei_test {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         Scanner in2 = new Scanner(System.in);

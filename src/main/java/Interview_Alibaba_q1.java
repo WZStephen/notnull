@@ -20,7 +20,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Alibaba_q1{
+public class Interview_Alibaba_q1 {
     //排序器，将X从小到大排序，最关键的一步是将相同的X按Y从大到小排序，因为如果按Y从小到大排序，
     //会导致后面的大的Y覆盖末尾前面的小的Y，这样就不符合贪心算法的尽量保证末尾元素最小的要求了。
     private static Comparator<int[]> comparator = new Comparator<int[]>(){

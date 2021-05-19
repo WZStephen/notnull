@@ -15,12 +15,17 @@ public class reverseList {
         ListNode new_head = null;
         ListNode cur = head;
         while(cur != null){
+
+            // 保存要反转到头的那个节点
             ListNode next = cur.next; //2, 3, 4, 5, null
 
-            /** 这两个是调换相邻两个数的位置 **/
+            // 要反转的那个节点指向已经反转的上⼀个节点(备注:第⼀次反转的时候会指向null)
             cur.next = new_head; //null, 1, 2, 3, 4
+
+            // 上⼀个已经反转到头部的节点
             new_head = cur;//1, 2, 3, 4, 5
 
+            // ⼀直向链表尾⾛
             cur = next;//2, 3, 4, 5, null
         }
         return new_head;
