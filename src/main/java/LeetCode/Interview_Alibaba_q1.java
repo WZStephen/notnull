@@ -1,4 +1,4 @@
-
+package LeetCode;
 /**
  小强现在有n个物品，么个物品有两种属性xi和yi.他想从中挑出尽可能多的物品满足一下条件：对于任意两个物品
  i和j满足xi < xj 且 yi < yj或者xi > xj且 yi > yj。问最多挑出多少物品

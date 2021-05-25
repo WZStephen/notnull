@@ -1,3 +1,5 @@
+package LeetCode;
+
 public class minNumber {
     public String minNumber(int[] nums){
         String[] strs = new String[nums.length];

@@ -1,3 +1,5 @@
+package LeetCode;
+
 public class numIslands {
     public int numIslands(char[][] grid) {
         if(grid == null || grid.length == 0){

@@ -1,3 +1,5 @@
+package LeetCode;
+
 public class maxDepth {
     public int maxDepth(String s){
         int count = 0, max = 0;

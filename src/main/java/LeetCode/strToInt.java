@@ -1,3 +1,5 @@
+package LeetCode;
+
 /**
  * 将⼀个字符串转换成⼀个整数(实现Integer.valueOf(string)的功能，但是string不
  * 符合数字要求时返回0)，要求不能使⽤字符串转换整数的库函数。 数值为0或者字符串不是

@@ -1,4 +1,4 @@
-import java.util.List;
+package LeetCode;
 
 public class getKthFromEnd {
 
