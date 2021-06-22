@@ -1,7 +1,6 @@
 package LeetCode;
 
 public class reverseList {
-
     //  * Definition for singly-linked list.
     public static class ListNode {
         int val;
