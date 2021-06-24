@@ -1,4 +1,4 @@
-package LeetCode;
+package leetcode;
 
 /**
  * 输⼊：(2 -> 4 -> 3) + (5 -> 6 -> 4)

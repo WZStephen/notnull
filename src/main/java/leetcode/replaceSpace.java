@@ -1,4 +1,4 @@
-package LeetCode;
+package leetcode;
 
 /**
  请实现⼀个函数，将⼀个字符串中的每个空格替换成“%20”。例如，当字符串为

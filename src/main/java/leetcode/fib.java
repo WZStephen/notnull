@@ -1,4 +1,4 @@
-package LeetCode;
+package leetcode;
 
 /**
  * F(0) = 0,   F(1) = 1

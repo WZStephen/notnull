@@ -1,4 +1,4 @@
-package LeetCode;
+package leetcode;
 
 /**
  * 将⼀个字符串转换成⼀个整数(实现Integer.valueOf(string)的功能，但是string不

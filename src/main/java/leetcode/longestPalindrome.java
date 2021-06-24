@@ -1,4 +1,4 @@
-package LeetCode;
+package leetcode;
 
 /**
  * 给定⼀个包含⼤写字⺟和⼩写字⺟的字符串，找到通过这些字⺟构造成的最⻓

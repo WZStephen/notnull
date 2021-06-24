@@ -1,4 +1,4 @@
-package LeetCode;
+package leetcode;
 
 /**
  * 在⼀个⼆维数组中，每⼀⾏都按照从左到右递增的顺序排序，每⼀列都按照从上到下递增的顺序

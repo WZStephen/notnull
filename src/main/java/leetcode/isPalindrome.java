@@ -1,4 +1,4 @@
-package LeetCode;
+package leetcode;
 
 /**
  * 给定⼀个字符串，验证它是否是回⽂串，只考虑字⺟和数字字符，可以忽略字⺟
