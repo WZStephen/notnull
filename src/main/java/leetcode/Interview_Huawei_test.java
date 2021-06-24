@@ -1,11 +1,11 @@
-package LeetCode;
+package leetcode;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
 import java.lang.Integer;
-import java.util.function.ToIntBiFunction;
+
 /*
 ZhangSan married 10 50
 Jimmy unmarried 10 50
