@@ -1,7 +1,9 @@
 package alibaba;
 
 import java.util.Arrays;
-
+/**
+ 最短路径
+ * */
 public class a42_canPartitionKSubsets {
     public boolean canPartitionKSubsets(int[] nums, int k) {
         if (k == 1)
