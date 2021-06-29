@@ -1,6 +1,8 @@
 package leetcode;
 
-public class reverseList {
+import java.util.List;
+
+public class  reverseList {
     //  * Definition for singly-linked list.
     public static class ListNode {
         int val;
@@ -10,24 +12,19 @@ public class reverseList {
         ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 
-    public ListNode reverseList(ListNode head){
-        ListNode new_head = null;
-        ListNode cur = head;
-        while(cur != null){
+    public ListNode reverseList(ListNode root){
+        ListNode old_head_node = null;
+        ListNode head = root;
+        while(head != null){
+            /** b  b->a c->b->a d->c->b->a*/
+            ListNode next_node = head.next; // b | c | d
 
-            // 保存要反转到头的那个节点
-            ListNode next = cur.next; //2, 3, 4, 5, null
+            head.next = old_head_node; // null, a, b
+            old_head_node = head;//a, b, c
 
-            // 要反转的那个节点指向已经反转的上⼀个节点(备注:第⼀次反转的时候会指向null)
-            cur.next = new_head; //null, 1, 2, 3, 4
-
-            // 上⼀个已经反转到头部的节点
-            new_head = cur;//1, 2, 3, 4, 5
-
-            // ⼀直向链表尾⾛
-            cur = next;//2, 3, 4, 5, null
+            head = next_node;//b, c, d
         }
-        return new_head;
+        return old_head_node;
     }
 
     public static void main(String[] args) {
@@ -35,6 +32,7 @@ public class reverseList {
         reverseList ans = new reverseList();
 
         ListNode res = ans.reverseList(head);
+        System.out.println();
 
     }
 }
