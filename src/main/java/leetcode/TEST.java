@@ -1,21 +1,30 @@
 package leetcode;
-
-class ABC{
-    public void myMethod()
-    {
-        System.out.println("Overridden method");
-    }
-}
-class Demo extends ABC {
-    public void myMethod() {
-        //This will call the myMethod() of parent class
-        super.myMethod();
-        System.out.println("Overriding method");
+public class a7_reverseInt {
+    public int a7_reverseInt(int input){
+        int res = 0;
+        while(input != 0){
+            int index = input % 10;
+            input /= 10;
+            res = res*10 + index;
+        }
+        return res;
     }
 
-    public static void main(String args[]) {
-        Demo obj = new Demo();
-        obj.myMethod();
-    }
+    public String reverseString(int input){
+        String in = String.valueOf(input);
+        StringBuilder res = new StringBuilder();
+        String res1;
+        for(int i = in.length()-1; i >= 0; i--){
+            char index = in.charAt(i);
+            res.append(index);
+            //hello
+        }
 
+        return res.toString();
+    }
+    public static void main(String[] args) {
+        a7_reverseInt obj = new a7_reverseInt();
+        System.out.println(obj.a7_reverseInt(51));
+        System.out.println(obj.reverseString(51));
+    }
 }

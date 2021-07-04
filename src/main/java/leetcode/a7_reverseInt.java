@@ -1,5 +1,4 @@
 package leetcode;
-
 public class a7_reverseInt {
     public int a7_reverseInt(int input){
         int res = 0;
@@ -18,14 +17,14 @@ public class a7_reverseInt {
         for(int i = in.length()-1; i >= 0; i--){
             char index = in.charAt(i);
             res.append(index);
-
+           //hello
         }
+
         return res.toString();
     }
     public static void main(String[] args) {
         a7_reverseInt obj = new a7_reverseInt();
         System.out.println(obj.a7_reverseInt(51));
         System.out.println(obj.reverseString(51));
-
     }
 }
