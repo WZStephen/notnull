@@ -1,5 +1,5 @@
 package leetcode;
-public class a7_reverseInt {
+public class TEST {
     public int a7_reverseInt(int input){
         int res = 0;
         while(input != 0){
@@ -17,7 +17,10 @@ public class a7_reverseInt {
         for(int i = in.length()-1; i >= 0; i--){
             char index = in.charAt(i);
             res.append(index);
-            //hello
+            /**
+             Java反射
+             文件夹路径递归搜索
+             * */
         }
 
         return res.toString();
