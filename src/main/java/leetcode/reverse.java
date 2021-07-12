@@ -18,6 +18,6 @@ public class reverse {
     public static void main(String[] args) {
         reverse op = new reverse();
         int result = op.reverse(123);
-        System.out.println(Integer.MIN_VALUE);
+        System.out.println(result);
     }
 }
