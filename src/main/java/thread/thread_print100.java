@@ -46,9 +46,7 @@ public class thread_print100 {
     }
 
     public class Thread3 implements Runnable{
-
         public void run() {
-
             while(i<100){
                 if(flag==2){
                     System.out.println("t3="+i);
